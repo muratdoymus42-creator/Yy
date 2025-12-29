@@ -16,7 +16,7 @@ const db = require('./db'); // Veritabanı import'u
 
 // Sabitler
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
-const OWNER_ID = process.env.OWNER_ID; 
+ 
 
 // Veritabanı anahtarları
 const TICKET_CATEGORY_ID_KEY = 'ticket_category_id';
@@ -244,3 +244,4 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 client.login(DISCORD_TOKEN);
+
